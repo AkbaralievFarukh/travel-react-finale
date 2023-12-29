@@ -22,13 +22,13 @@ const Header = () => {
                             <Link to={"/"} className={"header-nav__link"}>Destination</Link>
                         </li>
                         <li className={"header-nav__item"}>
-                            <Link to={"/about"} className={"header-nav__link"}>Offer</Link>
+                            <Link to={"/"} className={"header-nav__link"}>Offer</Link>
                         </li>
                         <li className={"header-nav__item"}>
-                            <Link to={"/about"} className={"header-nav__link"}>Tour</Link>
+                            <Link to={"/"} className={"header-nav__link"}>Tour</Link>
                         </li>
                         <li className={"header-nav__item"}>
-                            <Link to={"/about"} className={"header-nav__link"}>Blog</Link>
+                            <Link to={"/"} className={"header-nav__link"}>Blog</Link>
                         </li>
                     </ul>
                 </nav>
