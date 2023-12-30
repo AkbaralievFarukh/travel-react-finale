@@ -26,6 +26,17 @@ const Carousel = () => {
                         </button>
                     </div>
                 </SwiperSlide>
+                <SwiperSlide>
+                    <div className="carousel__wrapper">
+                        <h2 className={"carousel-title"}>
+                            It’s Time To
+                            Explore The World
+                        </h2>
+                        <button className={"carousel-button"}>
+                            Plan Your Trip
+                        </button>
+                    </div>
+                </SwiperSlide>
             </Swiper>
         </div>
     );

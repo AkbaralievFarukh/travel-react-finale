@@ -4,6 +4,9 @@ import Map from "../../../Assets/Images/map.png";
 import Binocular from "../../../Assets/Images/binocular.png";
 import Ukulele from "../../../Assets/Images/ukulele.png";
 import Backpack from "../../../Assets/Images/backpack.png";
+import Cuba from "../../../Assets/Images/Cuba.png";
+import Paris from "../../../Assets/Images/Paris.png";
+import Japan from "../../../Assets/Images/Japan.png";
     const SectionFutures = () => {
     return (
         <section className={"section-futures"}>
@@ -68,6 +71,40 @@ import Backpack from "../../../Assets/Images/backpack.png";
                                 </p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className={"section-futures-destination__container"}>
+                <div className={"section-futures-destination__text"}>
+                    <h2 className={"section-futures-destination__text-title"}>
+                        Top Destinations
+                        In The World
+                    </h2>
+                    <p className={"section-futures-destination__text-subtitle"}>
+                        It is a long established fact that a reader will be the distracted by the readable content of a page when looking at its layout from it.
+                    </p>
+                    <button className={"section-futures-destination__text-button"}>
+                        Discover More
+                    </button>
+                </div>
+                <div className={"section-futures-destination__images"}>
+                    <div className={"section-futures-destination__images-item"}>
+                        <img src={Cuba} alt={"cuba"}/>
+                        <h4 className={"section-futures-destination__images-item-title"}>
+                            Cuba City
+                        </h4>
+                    </div>
+                    <div className={"section-futures-destination__images-item"}>
+                        <img src={Paris} alt={"paris"}/>
+                        <h4 className={"section-futures-destination__images-item-title"}>
+                            Paris City
+                        </h4>
+                    </div>
+                    <div className={"section-futures-destination__images-item"}>
+                        <img src={Japan} alt={"japan"}/>
+                        <h4 className={"section-futures-destination__images-item-title"}>
+                            Japan City
+                        </h4>
                     </div>
                 </div>
             </div>
