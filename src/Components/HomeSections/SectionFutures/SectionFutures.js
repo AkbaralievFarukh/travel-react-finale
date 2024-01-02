@@ -4,9 +4,9 @@ import Map from "../../../Assets/Images/map.png";
 import Binocular from "../../../Assets/Images/binocular.png";
 import Ukulele from "../../../Assets/Images/ukulele.png";
 import Backpack from "../../../Assets/Images/backpack.png";
-import Cuba from "../../../Assets/Images/Cuba.png";
-import Paris from "../../../Assets/Images/Paris.png";
-import Japan from "../../../Assets/Images/Japan.png";
+import Cuba from "../../../Assets/Images/cuba.png";
+import Paris from "../../../Assets/Images/paris.png";
+import Japan from "../../../Assets/Images/japan.png";
     const SectionFutures = () => {
     return (
         <section className={"section-futures"}>

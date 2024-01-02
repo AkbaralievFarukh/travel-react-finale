@@ -1,0 +1,22 @@
+.tour-section {
+  margin-top: 325px;
+  &__container {
+    max-width: 88rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+  &__item {
+    &-title {
+      color: #2C2C2C;
+      font-size: 48px;
+      font-weight: 800;
+    }
+  }
+  .col-8 {
+    .tour-section__item-option-item {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+  }
+}
