@@ -23,13 +23,33 @@ const TourSection = () => {
                             <div className="tour-section__item-option">
                                 <div className="tour-section__item-option-item">
                                     <div className="tour-section__item-option-item-icon">
-                                        <img src={UserIcon} alt={"icon-tour-1"}/>
+                                        <img className={"user-icon"} src={UserIcon} alt={"icon-tour-1"}/>
                                     </div>
                                     <div className="tour-section__item-option-item-text">
                                         <h4 className="tour-section__item-option-item-text-title">
                                             Best Travel Guide Always For Your Services
                                         </h4>
                                     </div>
+                                </div>
+                            </div>
+                            <div className="tour-section__item-option-item">
+                                <div className="tour-section__item-option-item-icon">
+                                    <img className={"world-icon"} src={WorldIcon} alt={"icon-tour-1"}/>
+                                </div>
+                                <div className="tour-section__item-option-item-text">
+                                    <h4 className="tour-section__item-option-item-text-title">
+                                        Best Travel Guide Always For Your Services
+                                    </h4>
+                                </div>
+                            </div>
+                            <div className="tour-section__item-option-item">
+                                <div className="tour-section__item-option-item-icon">
+                                    <img className={"headphones-icon"} src={HeadphonesIcon} alt={"icon-tour-1"}/>
+                                </div>
+                                <div className="tour-section__item-option-item-text">
+                                    <h4 className="tour-section__item-option-item-text-title">
+                                        Best Travel Guide Always For Your Services
+                                    </h4>
                                 </div>
                             </div>
                         </div>
